@@ -1,0 +1,25 @@
+Verts naturels :
+
+#519872 (vert foncé)
+#88a489 (vert moyen)
+#c2d68f (vert clair)
+Marrons terreux :
+
+#7d5a44 (marron foncé)
+#b89068 (marron moyen)
+#e0c19c (marron clair)
+Bleus apaisants :
+
+#92a8d1 (bleu clair)
+#5e7d9a (bleu moyen)
+#354f6b (bleu foncé)
+Beiges et crèmes :
+
+#f0ead6 (beige clair)
+#d4c7b5 (beige moyen)
+#a08b78 (beige foncé)
+Oranges et bruns :
+
+#e6830d (orange)
+#b5660d (marron foncé)
+#8b4c0a (marron clair)
