@@ -30,7 +30,7 @@ const Add_product = async () => {
       formData.append('product', image);
 
       // Envoyer la requête pour uploader l'image
-      const uploadResponse = await fetch('https://cllient.onrender.com/upload', {
+      const uploadResponse = await fetch('https://malek.onrender.com/upload', {
           method: 'POST',
           headers: {
               Accept: 'application/json',
@@ -47,7 +47,7 @@ const Add_product = async () => {
           };
 
           // Envoyer la requête pour ajouter le produit
-          const addProductResponse = await fetch('https://cllient.onrender.com/addproduct', {
+          const addProductResponse = await fetch('https://malek.onrender.com/addproduct', {
               method: 'POST',
               headers: {
                   Accept: 'application/json',

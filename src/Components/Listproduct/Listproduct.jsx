@@ -8,7 +8,7 @@ const Listproduct = () => {
 
   const fetchInfo = async () => {
     try {
-      const response = await axios.get('https://cllient.onrender.com/allproducts');
+      const response = await axios.get('https://malek.onrender.com/allproducts');
       setAllproducts(response.data);
     } catch (error) {
       console.error('Failed to fetch products:', error);
@@ -22,7 +22,7 @@ const Listproduct = () => {
 //Remove Products
   const handleDelete = async (id) => {
     try {
-      await axios.delete('https://cllient.onrender.com/removeproduct/' + id);
+      await axios.delete('https://malek.onrender.com/removeproduct/' + id);
       fetchInfo(); // Actualiser la liste des produits après suppression
     } catch (error) {
       console.error('Failed to delete product:', error);
